@@ -8,29 +8,24 @@ export class ItemService {
   items: Array<any> = [
     {
       'id': "1",
-      'title': "Example 1",
-      'description': 'description 1'
+      'title': "Item 1",
+      'description': 'Description'
     },
     {
       'id': "2",
-      'title': "Example 2",
-      'description': 'description 2'
+      'title': "Item 2",
+      'description': 'Description'
     },
     {
       'id': "3",
-      'title': "Example 3",
-      'description': 'description 3'
+      'title': "Item 3",
+      'description': 'Description'
     },
     {
       'id': "4",
-      'title': "Example 4",
-      'description': 'description 4'
+      'title': "Item 4",
+      'description': 'Description'
     },
-    {
-      'id': "5",
-      'title': "Need a more complex app?",
-      'description': 'Check the Ionic 4 Full Starter App.'
-    }
   ]
 
   constructor() { }
